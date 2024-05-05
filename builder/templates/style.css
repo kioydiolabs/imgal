@@ -146,7 +146,7 @@ body{
     font-size: 0.8em;
     margin-top: 5px;
     font-family: arial;
-    position: absolute;
+    position: static;
     bottom: 0px;
 }
 
