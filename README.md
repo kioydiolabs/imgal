@@ -8,3 +8,5 @@
 4) Follow the instructions. In the last step, enter the full path of the directory where the images are stored.
 
 Your library has now been created! You should find all the files in the directory where the images were stored.
+
+https://github.com/kioydiolabs/imgal/assets/109022579/cbee83a2-d28a-400c-b953-1f62e441aeb4
