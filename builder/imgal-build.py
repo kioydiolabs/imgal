@@ -115,7 +115,10 @@ def moveFullSize(directory, file_names):
 
 
 picsList = os.listdir(directory)
-createPage(picsList)
-createThumbnails(picsList, directory)
-createViewerSize(picsList, directory)
+try:
+    createPage(picsList)
+    createThumbnails(picsList, directory)
+    createViewerSize(picsList, directory)
+except Exception as e:
+    print("Error occurred. Bypassing image. Details : "+e)
 moveFullSize(directory, picsList)
