@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="header">
+        <p id="title">{{title}}</p>
+        <div class="hr"></div>
+        <p id="description">{{description}}</p>
+        <p id="author">{{author}}</p>
+    </div>
+
+    <div id="imgOuterGal">
+
+        <a id="imageA" href=""><img id="image" src=""></a>
+
+    </div>
+
+    {{footerHr}}
+
+
+    <div id="smallFooter">
+        <div id="contact">
+            {{contactAuthor}}
+        </div>
+    </div>
+
+    {{watermark}}
+
+</body>
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const imgSrc = urlParams.get('img');
+    const imgTarget = urlParams.get('target');
+
+    if (imgSrc) {
+      document.getElementById('image').src = imgSrc;
+      document.getElementById('imageA').href = imgTarget;
+    }
+</script>
+</html>

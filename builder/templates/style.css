@@ -1,5 +1,6 @@
 :root{
     --width: 426px;
+    --widthPad: 406px;
 }
 
 body{
@@ -49,7 +50,7 @@ body{
     display: flex;
     width: var(--width);
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     border: 1px solid hsla(0, 0%, 79%, 0.24);
     background-color: rgb(147, 147, 147);
@@ -69,14 +70,29 @@ body{
     padding: 10px;
 }
 
+.emptyDiv{
+    --divMax: max-content;
+    height: 120px;
+    width: 120px;
+    border: 1px solid hsla(0, 0%, 79%, 0.24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+}
+
 .images:hover{
     background-color: hsl(0, 0%, 62%);
 }
 
 .images img{
     height: 100%;
-    width: auto;
-    box-shadow: 2px 3px 7px black;
+    width: 100%;
+    object-fit: contain;
+
+    /*box-shadow: 2px 3px 7px black;*/
 }
 
 .images a{
@@ -84,13 +100,13 @@ body{
     width: auto;
 }
 
-#pagination a{
+#smallFooter a{
     color: white;
     font-family: Arial;
     margin-right: 20px;
 }
 
-#pagination{
+#smallFooter{
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -98,7 +114,7 @@ body{
     justify-content: end;
 }
 
-#pagination a{
+#smallFooter a{
     margin: 0px;
     margin-right: 10px;
     color: hsl(0, 0%, 79%)
@@ -110,17 +126,17 @@ body{
     border-radius: 2px;
 }
 
-#pagination #pageNumbs a:hover{
+#smallFooter #pageNumbs a:hover{
     color: white;
 }
 
-#pagination #prevNext a{
+#smallFooter #prevNext a{
     margin: 0px;
     font-weight: bold;
     margin-left: 10px;
 }
 
-#pagination #contact{
+#smallFooter #contact{
     margin-right: auto;
 }
 
@@ -132,4 +148,24 @@ body{
     font-family: arial;
     position: absolute;
     bottom: 0px;
+}
+
+
+
+#imgOuterGal{
+    display: flex;
+    width: var(--widthPad);
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid hsla(0, 0%, 79%, 0.24);
+    background-color: rgb(147, 147, 147);
+    padding: 10px;
+}
+
+#imgOuterGal img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
