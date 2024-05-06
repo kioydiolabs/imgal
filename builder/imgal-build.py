@@ -120,5 +120,5 @@ try:
     createThumbnails(picsList, directory)
     createViewerSize(picsList, directory)
 except Exception as e:
-    print("Error occurred. Bypassing image. Details : "+e)
+    print("Error occurred. Bypassing image. Details : "+str(e))
 moveFullSize(directory, picsList)
