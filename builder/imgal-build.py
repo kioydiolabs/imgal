@@ -8,6 +8,7 @@ author = input("\nEnter the author's name > ")
 authorContact = input("\nEnter the author's email. You can leave this blank to hide the contact link. > ")
 showWatermark = input("\nDo you want to show a small 'made with Imgal' note at the bottom of the website? (Y/N/y/n) > ")
 directory = input("\nWhat folder/directory are the images located in (example : ./pics/pngFiles) > ")
+theme = input("\nChoose the theme you want to use (Sleek or OldStyle) (S/O) > ").upper()
 
 def resize_image(directory, image_path, max_size):
     # Open the image file
@@ -52,6 +53,11 @@ def createPage(picsList):
         contactAuthorA = f"<a href='mailto:{authorContact}'>Contact Author</a>"
         footerHr = "<div class='hr'></div>"
 
+    if theme == "S":
+        stylesheet = "sleek.css"
+    elif theme == "O":
+        stylesheet = "oldstyle.css"
+
     data = {
         "title":title,
         "description":description,
@@ -88,7 +94,7 @@ def createPage(picsList):
     with open(f"{directory}/view.html", "w", encoding="utf-8") as f:
         f.write(templateView)
 
-    stylesheet = open("./templates/style.css").read()
+    stylesheet = open(f"./templates/{stylesheet}").read()
     with open(f"{directory}/style.css","w") as f:
         f.write(stylesheet)
 
