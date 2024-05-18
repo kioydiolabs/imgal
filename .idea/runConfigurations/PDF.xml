@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="PDF" type="StardustRunConfiguration" factoryName="build-pdf">
+    <option name="addCover" value="true" />
+    <option name="addFooter" value="true" />
+    <option name="addHeader" value="true" />
+    <option name="copyright" value="KIOYDIOLABS © 2024" />
+    <option name="description" value="Documentation for the opensource web photo gallery builder, Imgal." />
+    <option name="folderPath" value="$PROJECT_DIR$" />
+    <option name="footer" value="KIOYDIOLABS © 2024" />
+    <option name="header" value="Imgal : OpenSource Web Photo Gallery Builder" />
+    <option name="instanceId" value="imgal" />
+    <option name="instanceName" value="Imgal" />
+    <option name="layout" />
+    <option name="logoPath" value="$PROJECT_DIR$/../../Random Shit/kioydio_square.jpg" />
+    <option name="title" value="Imgal Documentation" />
+    <method v="2" />
+  </configuration>
+</component>
