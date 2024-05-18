@@ -1,3 +1,7 @@
+# Demo
+
+You can preview a demo of the galleries you can create with Imgal [here](https://demo.imgal.kioydiolabs.org/).
+
 # Usage
 
 ### To create a photo library with imgal, follow the instructions below.
