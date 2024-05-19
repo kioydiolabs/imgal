@@ -1,0 +1,48 @@
+@font-face {
+    font-family: RobotoMono;
+    src: url("./static/fonts/RobotoMono.ttf");
+}
+
+body{
+    background-color: hsl(225, 6%, 13%);
+    color: white;
+    font-family: RobotoMono;
+}
+
+#header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#bodyInner{
+    text-align: center;
+}
+
+#bodyInner button{
+    background-color: hsl(77, 100%, 24%);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50px;
+    font-size: 1em;
+    transition: 0.15s ease;
+    font-family: RobotoMono;
+}
+
+#bodyInner button:hover{
+    background-color: hsl(77, 100%, 32%);
+    transform: scale(105%);
+    cursor: pointer;
+}
+
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.2);
+}
