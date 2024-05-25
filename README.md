@@ -12,7 +12,7 @@ pip3 install Pillow
 ```
 
 1) Create a folder, and inside, download and extract the [imgal-builder.zip](https://github.com/kioydiolabs/imgal/releases/latest) file. **Do not delete the templates folder.**
-2) Place all the pictures you want to include in the photo library in a folder, **WITH NO OTHER FILES**.
+2) Place all the pictures you want to include in the photo library in a folder, **with no other files**.
 3) Open your terminal, and run the imgal-builder.py file.
 4) Follow the instructions. In the last step, enter the full path of the directory where the images are stored.
 
