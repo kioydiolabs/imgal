@@ -6,6 +6,7 @@ hero:
   align: center
   name: "Demo Imgal Galleries"
   text: "Choose a theme"
+  pageClass: demo-page
   actions:
     - theme: brand
       text: Sleek
@@ -20,10 +21,5 @@ hero:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #75a300, rgb(0,163,149));
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 </style>

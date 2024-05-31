@@ -4,8 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Imgal Documentation",
   description: "Documentation for Imgal by KioydioLabs",
-  head: [['link', { rel: 'icon', href: '/public/icon.jpg' }]],
-  head: [['meta', { name: 'theme-color', content: '#75a300' }]],
+  head: [
+      ['link', { rel: 'icon', href: '/public/icon.jpg' }],
+      ['meta', { name: 'theme-color', content: '#75a300' }]
+    ] ,
   themeConfig: {
     search: {
       provider: 'local'
