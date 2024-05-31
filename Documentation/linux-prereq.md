@@ -18,7 +18,9 @@ To do that, open the Terminal and run the following command
 pip install Pillow
 ```
 
-<note>If the command above doesn't work, or you get an error that pip could not be found, run the command below instead</note>
+::: tip Note
+If the command above doesn't work, or you get an error that pip could not be found, run the command below instead
+:::
 
 ```Shell
 python -m install Pillow

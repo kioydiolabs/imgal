@@ -12,6 +12,10 @@ Extract the Imgal zip file.
 
 In a folder, place the `imagal.py` file and the `templates` folder found in the zip file.
 
+::: warning Warning
+**Do not move the `templates` folder or rename or modify the files in any way as this will break Imgal.**
+:::
+
 In the same folder, create another folder, and place your images in it.
 
 ## Creating the image gallery
