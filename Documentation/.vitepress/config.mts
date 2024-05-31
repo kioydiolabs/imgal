@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Imgal Documentation",
   description: "Documentation for Imgal by KioydioLabs",
+  head: [['link', { rel: 'icon', href: 'img/icon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
