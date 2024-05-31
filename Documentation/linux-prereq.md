@@ -1,6 +1,6 @@
 # Linux Prerequisites Installation
 
-### Installing Python
+## Installing Python
 
 To install Python, open the Terminal and run the command below
 
@@ -8,7 +8,7 @@ To install Python, open the Terminal and run the command below
 sudo apt update && sudo apt install python3 -y
 ```
 
-### Installing the Pillow package
+## Installing the Pillow package
 
 After you have installed Python, you need to install the Pillow package that's used for resizing images and creating thumbails.
 

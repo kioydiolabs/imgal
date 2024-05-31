@@ -1,6 +1,6 @@
 # Windows Prerequisites Installation
 
-### Installing Python
+## Installing Python
 
 To install Python, go to [](https://www.python.org/downloads/) and download the latest version.
 
@@ -8,7 +8,7 @@ To install Python, go to [](https://www.python.org/downloads/) and download the 
 
 Then, run the executable and follow the installation instructions.
 
-### Installing the Pillow package
+## Installing the Pillow package
 
 After you have installed Python, you need to install the Pillow package that's used for resizing images and creating thumbails.
 

@@ -17,7 +17,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Website', link: 'https://imgal.kioydiolabs.org' }
+      { text: 'Website', link: 'https://imgal.kioydiolabs.org' },
+      {
+        text: 'Resources',
+        items: [
+          {
+            text: 'Demo Galleries',
+            link: 'https://imgal-demo.kioydiolabs.org'
+          },
+          {
+            text: 'Download Imgal',
+            link: 'https://github.com/kioydiolabs/imgal/releases/latest/download/imgal_allPlatforms.zip'
+          }
+        ]
+      }
     ],
 
     sidebar: [

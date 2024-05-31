@@ -1,10 +1,12 @@
 # Creating an Image gallery
 
-### Prerequisites
+## Prerequisites
 
 To use Imgal you need Python and the Pillow package installed. Learn how to do that [here](prerequisites).
 
-### Organizing your files before creating the gallery
+## Organizing your files before creating the gallery
+
+First of all, download the .zip file with the templates and Imgal [here](https://github.com/kioydiolabs/imgal/releases/latest/download/imgal_allPlatforms.zip).
 
 Extract the Imgal zip file.
 
@@ -12,7 +14,7 @@ In a folder, place the `imagal.py` file and the `templates` folder found in the 
 
 In the same folder, create another folder, and place your images in it.
 
-### Creating the image gallery
+## Creating the image gallery
 
 In your Terminal or Powershell, go to the directory where the `imgal.py` file is.
 
