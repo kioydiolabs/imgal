@@ -24,4 +24,4 @@ pip install Pillow
 python -m install Pillow
 ```
 
-**You now have all the prerequisites you need installed! Go back to [Creating an image gallery](Creating-an-Image-gallery.md) to learn how to create a gallery!**
+**You now have all the prerequisites you need installed! Go back to [Creating an image gallery](creating-an-image-gallery) to learn how to create a gallery!**

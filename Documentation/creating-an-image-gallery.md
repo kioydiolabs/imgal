@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-To use Imgal you need Python and the Pillow package installed. Learn how to do that [here](Prerequisites.md).
+To use Imgal you need Python and the Pillow package installed. Learn how to do that [here](prerequisites).
 
 ### Organizing your files before creating the gallery
 
