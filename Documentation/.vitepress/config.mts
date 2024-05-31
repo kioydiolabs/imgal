@@ -6,6 +6,9 @@ export default defineConfig({
   description: "Documentation for Imgal by KioydioLabs",
   head: [['link', { rel: 'icon', href: '/public/icon.jpg' }]],
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
