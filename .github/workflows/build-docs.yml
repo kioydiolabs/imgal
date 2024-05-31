@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  INSTANCE: 'Writerside'
+  INSTANCE: 'Writerside/imgal'
   ARTIFACT: 'webHelpHI2-all.zip'
   DOCKER_VERSION: '241.15989'
 
