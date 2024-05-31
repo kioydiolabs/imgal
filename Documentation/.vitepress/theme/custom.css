@@ -5,3 +5,9 @@
   --vp-button-brand-bg: #75a300;
   --vp-button-brand-active-bg: #89c100;
 }
+
+.demo-page .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
