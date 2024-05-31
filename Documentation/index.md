@@ -13,7 +13,7 @@ hero:
       background-color: #75a300
     - theme: alt
       text: View Demo
-      link: https://imgal-demo.kioydiolabs.org
+      link: /demo
 
 features:
   - title: Choose between cool themes

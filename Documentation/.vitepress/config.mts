@@ -23,7 +23,7 @@ export default defineConfig({
         items: [
           {
             text: 'Demo Galleries',
-            link: 'https://imgal-demo.kioydiolabs.org'
+            link: '/demo'
           },
           {
             text: 'Download Imgal',
