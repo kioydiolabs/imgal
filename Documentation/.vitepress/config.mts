@@ -9,6 +9,11 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    footer: {
+      message: 'Released under the BSD 3-Clause License',
+      copyright: 'KIOYDIOLABS © 2024'
+    },
+    logo: '/public/icon.jpg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

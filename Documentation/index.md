@@ -10,6 +10,7 @@ hero:
     - theme: brand
       text: Get Started
       link: /introduction
+      background-color: #75a300
     - theme: alt
       text: View Demo
       link: https://imgal-demo.kioydiolabs.org
@@ -23,3 +24,9 @@ features:
     details: Imgal galleries are fully customizable, and you can even write your own CSS!
 ---
 
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #75a300, rgb(0,163,149));
+}
+</style>
