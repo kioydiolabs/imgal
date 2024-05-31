@@ -1,0 +1,7 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #75a300;
+  --vp-c-brand-2: #89c100;
+  --vp-button-brand-bg: #75a300;
+  --vp-button-brand-active-bg: #89c100;
+}
